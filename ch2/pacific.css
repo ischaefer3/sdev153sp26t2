@@ -12,8 +12,10 @@ nav {background-color: #BBDEFB;
 	font-weight: bold;}
 dt {color: #002171;
     font-weight: bold;}
-.resort {color: #C70000}
-footer {color: #333333;
-    font-size: 75%;
-	font-style: italic
+.resort {color: #1767D2;
+		font-size: 1.2em;}
+footer {
+    font-size: .70em;
+	text-align: center;
+	font-style: italic;
 }
