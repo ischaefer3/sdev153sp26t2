@@ -26,6 +26,7 @@ nav {background-color: #BBDEFB;
 	padding-top: .5em;
 	padding-right: .5em;
 	padding-bottom: .5em;
+	text-align: center;
 }
 nav a {
 	text-decoration: none;
