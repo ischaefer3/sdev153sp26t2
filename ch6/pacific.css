@@ -29,7 +29,7 @@ h2 { color: #1976D2;
 h3 {
 	font-family: Georgia, serif;
 }
-nav {background-color: #BBDEFB;
+nav {font-weight: bold;
 	padding-top: .5em;
 	padding-right: .5em;
 	padding-bottom: .5em;
