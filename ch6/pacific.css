@@ -8,10 +8,18 @@ header { background-color: #002171;
 	font-family: Georgia, serif; 
 	background-image: url(sunset.jpg); 
 	height: 120px; }
+
+header a { text-decoration: none; }
+header a:link { color: #FFFFFF; }
+header a:visited { color: #FFFFFF;}
+header a:hover { color: #90c7e3; }
 main {
 	padding-left: 2em;
 	padding-right: 2em;
 	display: block;
+	background-color: #FFFFFF;
+	margin-left: 170px;
+	overflow: auto;
 }
 h1 {text-align: center;
 	padding-top: .5em;
@@ -35,6 +43,11 @@ nav {background-color: #BBDEFB;
 nav a:link { color: #5c7fa3;}
 nav a:visited {color: #344873;}
 nav a:hover {color: #a52a2a;}
+
+nav ul {
+	padding: 1em;
+	list-style-type: none;
+}
 .resort {color: #1976D2;
 		font-size: 1.2em;}
 dt {color: #002171;
@@ -44,6 +57,14 @@ footer {
 	text-align: center;
 	font-style: italic;
 	padding: 1em;
+	background-color: #FFFFFF;
+	margin-left: 170px;
+}
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 #wrapper {margin-right: auto;
 			margin-left: auto;
@@ -54,22 +75,24 @@ footer {
 			box-shadow: 5px 5px 5px #1e1e1e;
 			background-repeat: no-repeat;
 			background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);}
-		}
+		
 #homehero {
 	height: 300px;
 	background-image: url(coast.jpg); 
 	background-size: 100% 100%;
+	margin-left: 170px;
 
 }
 #yurthero {
 	height: 300px;
 	background-image: url(yurt.jpg); 
 	background-size: 100% 100%;
+	margin-left: 170px;
 	
 }
 #trailhero {
 	height: 300px;
 	background-image: url(trail.jpg); 
 	background-size: 100% 100%;
-	
+	margin-left: 170px;
 }
