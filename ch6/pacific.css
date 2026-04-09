@@ -6,7 +6,6 @@ body { background-color: #eaeaea;
 header { background-color: #002171;
 	color: #FFFFFF;
 	font-family: Georgia, serif; 
-	background-image: url(sunset.jpg); 
 	height: 120px; }
 
 header a { text-decoration: none; }
