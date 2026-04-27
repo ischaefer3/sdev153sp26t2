@@ -1,5 +1,10 @@
+* {box-sizing: border-box; }
+
 td {
+	font-size: large;
 	text-align: center;
+	justify-content: space-between;
+	width: 10%
 }
 .text {
 	text-align: left;
@@ -12,7 +17,7 @@ body { background-color: #90c7e3;
 header { background-color: #188ceb;
 	color: #FFFFFF;
 	font-family: Georgia, serif; 
-	background-image: url(sunset.jpg); 
+	background-image: url(Final\ Project/Logo_-_hololive.png) width="50" height="50"; 
 	background-position: right;
 	background-repeat: no-repeat;
 	height: 72px; }
