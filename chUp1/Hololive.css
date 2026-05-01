@@ -2,6 +2,8 @@
 
 td {
 	font-size: large;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
 	text-align: center;
 	justify-content: space-between;
 	width: 10%
@@ -17,7 +19,7 @@ body { background-color: #90c7e3;
 header { background-color: #188ceb;
 	color: #FFFFFF;
 	font-family: Georgia, serif; 
-	background-image: url(Final\ Project/Logo_-_hololive.png) width="50" height="50"; 
+	background-image: url(Logo_-_hololive.png) width="50" height="50"; 
 	background-position: right;
 	background-repeat: no-repeat;
 	height: 72px; }
@@ -28,10 +30,10 @@ main {
 }
 h1 {text-align: center;
 	padding-top: .5em}
-h2 { color: #1976D2;
+h2 { color: #049db1;
     font-family: Georgia, serif; }
-h3 {
-	font-family: Georgia, serif;
+h3 { color: #0270ff;
+	font-family: "Courier New", Courier, monospace;
 }
 nav {background-color: #BBDEFB;
 	padding-top: .5em;
